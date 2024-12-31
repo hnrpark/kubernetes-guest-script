@@ -31,7 +31,7 @@ spec:
         kubernetes.io/hostname: k8s-master
       containers:
         - name: guest-container-1
-          image: academyitwill/guest:v1.0.0
+          image: academyitwill/guest:v1
           imagePullPolicy: Always
           env:
           - name: USER_PROFILE
